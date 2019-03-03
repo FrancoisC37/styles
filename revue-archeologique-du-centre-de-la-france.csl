@@ -216,6 +216,11 @@
     </date>
   </macro>
   <citation disambiguate-add-year-suffix="true" disambiguate-add-names="true" disambiguate-add-givenname="true" givenname-disambiguation-rule="primary-name">
+      <sort>
+      <key variable="issued"/>
+      <key macro="author-short"/>
+      <key macro="title"/>
+    </sort>
     <layout prefix=" (" suffix=")" delimiter="">
       <group delimiter="&#160;:&#160;">
         <group delimiter=" ">
